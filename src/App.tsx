@@ -1,6 +1,6 @@
 import React from 'react';
 import PizzaContainer from './pizzaContainer';
-// import { withAuthenticator } from 'aws-amplify-react';
+import { withAuthenticator } from 'aws-amplify-react';
 
 const App: React.FC = () => {
   return (
@@ -10,4 +10,4 @@ const App: React.FC = () => {
   );
 }
 
-export default (App);
+export default withAuthenticator(App);

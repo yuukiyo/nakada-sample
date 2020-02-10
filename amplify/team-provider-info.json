@@ -1,0 +1,20 @@
+{
+    "lambdatest": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-nakada-lambda-lambdatest-173929-authRole",
+            "UnauthRoleArn": "arn:aws:iam::634148078504:role/amplify-nakada-lambda-lambdatest-173929-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::634148078504:role/amplify-nakada-lambda-lambdatest-173929-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-nakada-lambda-lambdatest-173929-deployment",
+            "UnauthRoleName": "amplify-nakada-lambda-lambdatest-173929-unauthRole",
+            "StackName": "amplify-nakada-lambda-lambdatest-173929",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:634148078504:stack/amplify-nakada-lambda-lambdatest-173929/dafbe440-4be0-11ea-9fb0-0a7eeed766b8",
+            "AmplifyAppId": "d1ejif2edxj183"
+        },
+        "categories": {
+            "auth": {
+                "nakadalambda9cba5508": {}
+            }
+        }
+    }
+}

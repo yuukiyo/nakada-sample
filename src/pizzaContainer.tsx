@@ -3,9 +3,9 @@ import { AppState } from './store';
 import { PizzaComponent } from "./pizzaComponent";
 import { Dispatch } from "redux";
 import { Actions } from "./action";
-// import Amplify, { API, graphqlOperation } from 'aws-amplify'
-// import awsconfig from './aws-exports';
-// Amplify.configure(awsconfig);
+import Amplify, { Auth } from 'aws-amplify'
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
 
 export interface pizzaHundler {
     hundleInit(): void
@@ -16,11 +16,11 @@ export interface pizzaHundler {
 const hundleInit = () => async (dispatch: Dispatch) => {
     const login: string = '吉田'
     dispatch(Actions.updateUsername(login))
-    // Auth.currentSession()
-    // .then(data => {
-    //     dispatch(Actions.updateUsername(data["accessToken"]["payload"]["username"]))
-    // })
-    // .catch(err => console.log(err));
+    Auth.currentSession()
+    .then(data => {
+        dispatch(Actions.updateUsername(data["accessToken"]["payload"]["username"]))
+    })
+    .catch(err => console.log(err));
 }
 
 const hundleUpdateQuantity = (event: any, quantity: number) => async (dispatch: Dispatch) => {

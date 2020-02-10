@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"nakadalambda9cba5508": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
