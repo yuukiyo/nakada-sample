@@ -14,6 +14,10 @@
         "categories": {
             "auth": {
                 "nakadalambda9cba5508": {}
+            },
+            "function": {
+                "nakadalambda9cba5508PostAuthentication": {},
+                "nakadalambda9cba5508PreAuthentication": {}
             }
         }
     }

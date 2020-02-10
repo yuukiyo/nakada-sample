@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "custom"
+    ],
+    "parentResource": "nakadalambda9cba5508",
+    "functionName": "nakadalambda9cba5508PreAuthentication",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "PreAuthentication.json.ejs",
+    "roleName": "nakadalambda9cba5508PreAuthentication",
+    "skipEdit": true,
+    "resourceName": "nakadalambda9cba5508PreAuthentication"
+}

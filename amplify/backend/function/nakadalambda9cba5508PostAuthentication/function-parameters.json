@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "custom"
+    ],
+    "parentResource": "nakadalambda9cba5508",
+    "functionName": "nakadalambda9cba5508PostAuthentication",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "PostAuthentication.json.ejs",
+    "roleName": "nakadalambda9cba5508PostAuthentication",
+    "skipEdit": true,
+    "resourceName": "nakadalambda9cba5508PostAuthentication"
+}
